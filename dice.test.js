@@ -46,7 +46,7 @@ describe('Dice', () => {
     describe('GetLastDrawnFace Tests', () => {
         it('should throw an error if getLastDrawnFace is called before shuffle', () => {
             assert.throws(() => _dice.getLastDrawnFace(), {
-                message: 'FatalError: No lastDrawnFace attribute of Dice',
+                message: 'Error: No lastDrawnFace attribute of Dice',
             });
         });
 

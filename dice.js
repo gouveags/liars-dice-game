@@ -19,7 +19,7 @@ class Dice {
     }
 
     getLastDrawnFace(){
-        assert(!!this.#lastDrawnFace, 'FatalError: No lastDrawnFace attribute of Dice');
+        assert(!!this.#lastDrawnFace, 'Error: No lastDrawnFace attribute of Dice');
         return this.#lastDrawnFace;
     }
 }
